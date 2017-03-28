@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/background_dark"
+    android:layout_height="match_parent"
+    tools:context="com.example.rr.homerent.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:text="Home"
+                android:drawableTop="@drawable/homeact"
+                android:padding="20dp"
+                android:background="@android:color/transparent"
+                android:paddingTop="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="48dp"
+                android:layout_marginStart="48dp"
+                android:paddingBottom="40dp"
+                android:layout_alignBottom="@+id/Owner" />
+
+            <Button
+                android:id="@+id/Owner"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginEnd="21dp"
+                android:drawableTop="@drawable/copyrightsymbol"
+                android:padding="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="40dp"
+                android:layout_marginRight="21dp"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="140dp"
+                android:textColor="@android:color/white"
+                android:text="Owners Panel"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:drawableTop="@drawable/information"
+                android:text="App Description"
+                android:textColor="@android:color/white"
+                android:layout_below="@+id/Customer"
+                android:layout_alignLeft="@+id/Customer"
+                android:background="@android:color/transparent"
+                android:layout_alignStart="@+id/Customer"
+                android:layout_marginTop="60dp" />
+
+            <Button
+                android:id="@+id/complain"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:drawableTop="@drawable/complaining"
+                android:text="Complain Box"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/white"
+                android:layout_alignLeft="@+id/Area"
+                android:layout_alignStart="@+id/Area"
+                android:layout_above="@+id/button8" />
+
+            <Button
+                android:id="@+id/Area"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:text="Find Your Area"
+                android:layout_marginTop="50dp"
+                android:textColor="@android:color/white"
+                android:drawableTop="@drawable/locationpointer"
+                android:layout_below="@+id/Owner"
+                android:layout_alignLeft="@+id/Owner"
+                android:background="@android:color/transparent"
+                android:layout_alignStart="@+id/Owner" />
+
+            <Button
+                android:id="@+id/Customer"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:text="Customer Panel"
+                android:layout_marginTop="50dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/clerkwithtie"
+                android:layout_below="@+id/home"
+
+                android:layout_alignLeft="@+id/home"
+                android:layout_alignStart="@+id/home" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:text="Find Us"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/thinking"
+                android:layout_below="@+id/button4"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+</RelativeLayout>
